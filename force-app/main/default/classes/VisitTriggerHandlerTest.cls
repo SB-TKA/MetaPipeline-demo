@@ -8,6 +8,7 @@ public with sharing class VisitTriggerHandlerTest {
 
         Visit__c visit = new Visit__c();
         visit.Account__c = account.id;
+        visit.Purpose__c = '新製品紹介';
         insert visit;
     }
 
